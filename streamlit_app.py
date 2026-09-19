@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 
 # read data
-df=pd.read_csv("C:\Users\DELL\Desktop\Student-Performance-Prediction\data\student_performance.csv")
+df=pd.read_csv(r"C:\Users\DELL\Desktop\Student-Performance-Prediction\data\student_performance.csv")
 # show data
 print(df)
 
